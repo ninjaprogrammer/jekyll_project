@@ -22,7 +22,7 @@ title: Chase Thrower
 email: chasethrower@gmail.ccom
 description: >- # this means to ignore newlines until "baseurl:"
   Chase Thrower web developer and entrepauner working in finance coaching
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "jekyll_project" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_path: https://twitter.com/zenchaser
