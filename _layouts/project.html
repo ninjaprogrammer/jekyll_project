@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="projects-header-main" style="background-image: url('{{ site.baseurl }}{{ page.featImg }}');">
+    <div class="overlay-dark"></div>
+    {% include nav.html %}
+    <div class="projects-title">
+        <h1>{{ page.project }}</h1>
+        <h3>Project</h3>
+        <a class="dont-like-reading" href="{{ page.sitelink }}">Go To Project Site</a>
+    </div>
+</header>
+{{ content }}
+<hr>
