@@ -1,0 +1,88 @@
+header.contact-header-main
+    position: relative
+    z-index: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 500px
+    background:
+        size: cover
+        position: center center
+        repeat: no-repeat
+    .overlay-light
+        position: absolute
+        z-index: 2
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background: $white
+        opacity: .5
+    .home-title
+        position: relative
+        z-index: 3
+        text-align: center
+        padding-top: 50px
+    h1 
+        font-size: 3.125em
+        font-weight: 500
+        line-height: 1.2em 
+        padding: 0 20px 5px 20px
+.form-wrapper
+    position: Relative
+    margin: 100px auto
+    width: 100%
+    padding: 0 20px
+.contact-form
+    max-width: 550px
+    margin: 0 auto
+    background: $primary
+    padding: 30px
+    border-radius: 5px
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13)
+    display: flex
+.input-fields
+    display: flex
+    flex-direction: column
+    margin-right: 4%
+.input-fields, .msg
+    width: 48%
+.input-fields .input, .msg textarea
+    margin: 10px 0
+    background: transparent 
+    border: 0
+    border-bottom: 2px solid #c5ecfd
+    padding: 10px
+    color: #c5ecfd
+    width: 100%
+.msg textarea
+    height: 212px
+::placeholder
+    color: #c5ecfd
+.btn
+    background: $highlight
+    border: 0
+    text-align: center
+    padding: 15px
+    border-radius: 5px
+    box-shadow: none
+    color: $white
+    cursor: pointer
+    text-transform: uppercase
+    width: 100%
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13)
+.msg
+    input:hover
+        background: $secondary
+        transition: all 0.3s ease-in
+@media screen and ( max-width: 600px )
+    .contact-form
+        flex-direction: column
+    .msg textarea
+        height: 80px
+    .input-fields, .msg
+        width: 100%
+
+    
