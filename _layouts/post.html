@@ -6,6 +6,7 @@ layout: default
     {% include nav.html %}
     <div class="blog-index-title">
         <h1 class="featured-blog-post-title">{{ page.title }}</h1>
+        <a href="" class="blogCategory">{{ page.categories }}</a>
     </div>
     <div class="authorCard">
         <img src="{{ site.url }}{{ site.data.authors[page.author].avatar }}" alt="{{ site.data.authors[page.author].name }} Avatar" />
